@@ -59,7 +59,7 @@ class _MyHomePageState extends State<MyHomePage>
           child: RotationTransition(
             turns: Tween(begin: 0.0, end: .5).animate(_arrow_controller),
             child: IconButton(
-              icon: Icon(Icons.arrow_downward, size: 24, color: Colors.white ),
+              icon: Icon(Icons.arrow_downward, size: 24, color: Colors.yellow ),
               onPressed: () { _rotate( context ); },
             ),
           ),
